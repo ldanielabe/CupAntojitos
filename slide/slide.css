@@ -1,0 +1,46 @@
+#particles-js{
+	background: url("img/fondo.jpg");
+	background-position: center;
+	background-attachment: contain;
+	background-size: cover;
+
+}
+
+.anchoLetras{
+z-index: 1;
+top: 350px;
+position: absolute; /*Letra sobre la imagen*/
+text-align: center;
+}
+
+.letrasSlider{
+	margin: auto;
+}
+
+.letrasSlider #titulo{
+	font-size: 50px;
+	color: #1a1aff;
+	font-family: Lakki;
+}
+
+.letrasSlider #text{
+	background: rgba(255, 230, 255,.8);
+	font-size: 35px;
+	color:  #4700b3;
+	font-family: orig;
+	/*padding-top: 50px; Separar en la parte superior*/
+
+}
+
+
+
+
+@font-face{
+	font-family: Spicy;
+	src:url("fuentes/Spicy.ttf");
+}
+
+@font-face{
+	font-family: Lakki;
+	src:url("fuentes/Lakki.ttf");
+}
